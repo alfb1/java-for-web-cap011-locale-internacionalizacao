@@ -24,6 +24,7 @@ Início
 		  constraint 'fk_cheque_lancamento' foreign key ('lancamento')
 		    references 'lancamento' ('codigo') on delete cascade
 		  );
+ Obs.: A tabela acima será criada automaticamente pelo Hibernate.
  
  3.Criação da classe de chave composta ChequeId.
 
